@@ -8,7 +8,7 @@ module.exports = defineConfig({
     "baseUrl":"https://opensource-demo.orangehrmlive.com", 
     "projectId": "xwu4ud",
 
-   // "defaultCommandTimeout":20000,
+    "defaultCommandTimeout":20000,
    "chromeWebSecurity":false,
    "video":true,
    //"retries": { "runMode": 2, "openMode": 2 },

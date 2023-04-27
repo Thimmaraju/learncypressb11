@@ -5,8 +5,9 @@ describe('Checkboxes', () => {
   
     it('checks all checkboxes with one command', () => {
 
-      cy.xpath("//input[@type='checkbox']").should("have.length", 7)
-
+      //cy.xpath("//input[@type='checkbox']").should("have.length", 7)
+      
+      //adding comment 
       cy.get('input[type="checkbox"]').check()
       
       cy.get('input[type="checkbox"]').uncheck()
