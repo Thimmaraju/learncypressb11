@@ -10,7 +10,7 @@ module.exports = defineConfig({
 
     "defaultCommandTimeout":20000,
    "chromeWebSecurity":false,
-   "video":true,
+   "video":false,
    //"retries": { "runMode": 2, "openMode": 2 },
     "pageLoadTimeout": 120000,
     // "viewportHeight":1920,
