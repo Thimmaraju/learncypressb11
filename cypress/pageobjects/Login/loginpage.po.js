@@ -6,6 +6,8 @@ class LoginPage{
 
     usernameInput(){
         return '//input[@name="username"]'
+        return '//input[@name="username"]'
+        return '//input[@name="username"]'
     }
 
     passwordInput(){
