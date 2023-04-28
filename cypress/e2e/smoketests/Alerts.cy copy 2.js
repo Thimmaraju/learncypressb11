@@ -51,5 +51,3 @@ describe('Automation - Working with Alerts', function () {
         })
     })
 })
-
-}
