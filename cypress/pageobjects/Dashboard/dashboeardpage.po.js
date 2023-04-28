@@ -9,6 +9,12 @@ class DashBoardPage{
 
         return "Admin"
     }
+
+    adminmenu2(){
+
+        return "Admin"
+    }
+
 }
 
 const dashboard = new DashBoardPage()
