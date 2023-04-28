@@ -20,7 +20,7 @@ module.exports = defineConfig({
          "username" : "Admin",
          "password": "admin123"
     },
-    //"specPattern": "**/*.feature",
+    "specPattern": "**/*.feature",
 
     setupNodeEvents(on, config) {
 
