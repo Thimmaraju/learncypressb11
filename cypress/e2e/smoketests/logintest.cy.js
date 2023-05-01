@@ -14,7 +14,6 @@ describe('Validate Login functionality', () => {
   });
 
 
-
   afterEach(function () {
 
     cy.log("Test execution is completed ")

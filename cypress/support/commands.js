@@ -31,9 +31,9 @@ require('@4tw/cypress-drag-drop')
 
 Cypress.Commands.add('AddJobTitle', (title, description) => {
 
-   // cy.contains("Job Titles").click()
+   cy.contains("Job Titles").click()
 
-    //cy.get('i[class="oxd-icon bi-plus oxd-button-icon"]').click()
+    cy.get('i[class="oxd-icon bi-plus oxd-button-icon"]').click()
 
     cy.contains('Add Job Title').should("be.visible")
 
@@ -51,6 +51,7 @@ Cypress.Commands.add('login', (value1, value2) => {
     cy.xpath('//input[@name="username"]').type(value1)
     cy.xpath('//input[@name="password"]').type(value2)
 
+    cy.get('button[type="submit"]').click()
 
 })
 
